@@ -1,16 +1,35 @@
 #container {
     width: 90%;
     margin: auto;
+    margin-top: 20px;
 }
 
-#logo {
-
+#title {
+  font-size: 25px;
+  margin-left: 10px;
 }
 
 .navigation {
+  font-size: 15px;
+  margin-right: 10px;
+}
 
+.navigation:hover {
+  cursor: pointer;
+  opacity: 0.3;
 }
 
 #filtr {
-  
+  margin-left: 1100px;
+  font-size: 15px;
+}
+
+#filtr > input {
+  display: block;
+  width: 250px;
+  height: 15px;
+}
+
+#container > nav {
+  margin-top: 40px;  
 }

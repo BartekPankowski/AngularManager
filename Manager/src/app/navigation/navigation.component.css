@@ -22,6 +22,8 @@
   font-size: 20px;
   margin: 15px 10px 10px 10px;
   border: 10px solid rgb(49, 49, 216);
+  text-decoration: none;
+  color: white;
 }
 
 .anchor:hover {
@@ -30,3 +32,5 @@
   border: 10px solid grey;
   border-radius: 5px;
 }
+
+

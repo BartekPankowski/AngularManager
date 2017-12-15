@@ -9,6 +9,10 @@ import { AppRoutingModule } from './/app-routing.module';
 import { OrdersComponent } from './orders/orders.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
+import { CardViewComponent } from './card-view/card-view.component';
+import { ListViewComponent } from './list-view/list-view.component';
+import { MapViewComponent } from './map-view/map-view.component';
+import { NewCustomerComponent } from './new-customer/new-customer.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { LoginComponent } from './login/login.component';
     CustomersComponent,
     OrdersComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    CardViewComponent,
+    ListViewComponent,
+    MapViewComponent,
+    NewCustomerComponent
   ],
   imports: [
     BrowserModule,

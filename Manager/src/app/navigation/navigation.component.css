@@ -28,6 +28,10 @@
   text-decoration: none;
 }
 
+.anchor2:link {
+  text-decoration: none;
+}
+
 .anchor:hover {
   cursor: pointer;
   background-color: grey;
@@ -35,4 +39,14 @@
   border-radius: 5px;
 }
 
+.anchor2 {
+  float:left;
+  font-size: 20px;
+  margin: 15px 10px 10px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: grey;
+  border: 10px solid grey;
+  border-radius: 5px;
+}
 

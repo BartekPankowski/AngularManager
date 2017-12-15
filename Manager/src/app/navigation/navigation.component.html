@@ -1,10 +1,10 @@
 <nav id="container">
   <img id="logo" src = "assets/logo.png" alt="Logo">
   <span id="navTitle">Customer Manager</span>
-      <a class="anchor" routerLink="/customers">Customers</a>
-      <a class="anchor" routerLink="/orders">Orders</a>
-      <a class="anchor" routerLink="/about">About</a>
-      <a class="anchor" routerLink="/login">Login</a>
+      <a id='customers' [ngClass]="{'anchor2': customers, 'anchor': customers === false}" (click)="changeClass($event)" routerLink="/customers">Customers</a>
+      <a id='orders' [ngClass]="{'anchor2': orders, 'anchor': orders === false}" (click)="changeClass($event)" routerLink="/orders">Orders</a>
+      <a id='about' [ngClass]="{'anchor2': about, 'anchor': about === false}" (click)="changeClass($event)" routerLink="/about">About</a>
+      <a [ngClass]="{'anchor2': login, 'anchor': login === false}" (click)="changeClass($event)" routerLink="/login">Login</a>
       
 </nav>
 <div style="clear:both;"></div>

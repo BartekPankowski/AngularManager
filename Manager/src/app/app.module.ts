@@ -13,6 +13,8 @@ import { CardViewComponent } from './card-view/card-view.component';
 import { ListViewComponent } from './list-view/list-view.component';
 import { MapViewComponent } from './map-view/map-view.component';
 import { NewCustomerComponent } from './new-customer/new-customer.component';
+import { CustomerComponent } from './customer/customer.component';
+import { ManagerService } from './manager.service';
 
 
 @NgModule({
@@ -26,13 +28,14 @@ import { NewCustomerComponent } from './new-customer/new-customer.component';
     CardViewComponent,
     ListViewComponent,
     MapViewComponent,
-    NewCustomerComponent
+    NewCustomerComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ManagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

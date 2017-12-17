@@ -1,0 +1,19 @@
+<div id="customer">
+  <div id="title">
+    <span id="name">{{customers[i].name}} {{customers[i].surname}}</span>
+    <i class="fa fa-pencil-square-o" id="edit" aria-hidden="true"></i>
+  </div>
+  <div id="content">
+      <ng-container *ngIf="customers[i].sex === 'M'; else f">
+          <i class="fa fa-mars" aria-hidden="true" id="male"></i>
+        </ng-container>
+      <ng-template #f>
+              <i class="fa fa-venus" aria-hidden="true" id="female"></i>
+      </ng-template>
+  <div id="info">   
+    <span id="voivodeship">{{customers[i].voivodeship}},</span>
+    <span id="city">{{customers[i].city}}</span>
+    <a href="#" id="navigate">View Orders</a>
+  </div>   
+  </div>
+</div>

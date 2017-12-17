@@ -18,7 +18,8 @@ export class ManagerService {
       new Customer(6, 'M','Mariusz','Kleszcz','Mazowieckie','Piaseczno','jakiś adress', 0 ),
       new Customer(7, 'M','Piotr','Rabarbar','Mazowieckie','Łomianki','jakiś adress', 0 ),
       new Customer(8, 'K','Maria','Awaria','Mazowieckie','Płock','jakiś adress', 0 ),
-      new Customer(9, 'M','Jakub','Gong','Mazowieckie','Wyszogród','jakiś adress', 0 )
+      new Customer(9, 'M','Jakub','Gong','Mazowieckie','Wyszogród','jakiś adress', 0 ),
+     
     ];
    }
 
